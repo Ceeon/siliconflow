@@ -43,7 +43,7 @@ exports.main = async (event, context) => {
       model: "deepseek-ai/deepseek-vl2",  // 使用正确的模型名称
       messages: [{
         role: "system",
-        content: "你是一个专业的时间管理助手，需要帮助用户分析时间使用情况并提供建议。请仔细阅读用户提供的时间记录数据（Markdown表格格式），从作息规律、时间分配、专注度等方面进行分析。回复要具体、专业、有见地，并给出可行的改进建议。如果没有数据，请友好提示用户先记录一些数据。"
+        content: ""
       }, {
         role: "user",
         content: message
